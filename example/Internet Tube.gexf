@@ -1,0 +1,3213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2014-04-06">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="region" title="region" type="string"></attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="cable" title="cable" type="string"></attribute>
+      <attribute id="edgebetweenness" title="EdgeBetweenness" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="USA" label="United States">
+        <attvalues>
+          <attvalue for="region" value="North America"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.130952380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="5216.433333333341"></attvalue>
+        </attvalues>
+        <viz:size value="83.46644"></viz:size>
+        <viz:position x="-1389.2888" y="162.39572" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="158"></viz:color>
+      </node>
+      <node id="CAN" label="Canada">
+        <attvalues>
+          <attvalue for="region" value="North America"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.05952380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="526.9666666666673"></attvalue>
+        </attvalues>
+        <viz:size value="12.027739"></viz:size>
+        <viz:position x="-1722.1002" y="-39.693165" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="158"></viz:color>
+      </node>
+      <node id="GRL" label="Greenland">
+        <attvalues>
+          <attvalue for="region" value="North America"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.964285714285714"></attvalue>
+          <attvalue for="betweenesscentrality" value="376.46666666666613"></attvalue>
+        </attvalues>
+        <viz:size value="9.735043"></viz:size>
+        <viz:position x="-1972.5952" y="30.296154" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="158"></viz:color>
+      </node>
+      <node id="MEX" label="Mexico">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.06547619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="430.4"></attvalue>
+        </attvalues>
+        <viz:size value="10.556656"></viz:size>
+        <viz:position x="-1342.9456" y="528.4525" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="BMU" label="Bermuda">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.083333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="216.66666666666663"></attvalue>
+        </attvalues>
+        <viz:size value="7.3006706"></viz:size>
+        <viz:position x="-1127.3309" y="401.59296" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="GBR" label="United Kingdom">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.023809523809524"></attvalue>
+          <attvalue for="betweenesscentrality" value="901.1666666666661"></attvalue>
+        </attvalues>
+        <viz:size value="17.728252"></viz:size>
+        <viz:position x="-1594.2914" y="370.1832" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="FRA" label="France">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="15.0"></attvalue>
+          <attvalue for="closnesscentrality" value="6.970238095238095"></attvalue>
+          <attvalue for="betweenesscentrality" value="4236.9333333333325"></attvalue>
+        </attvalues>
+        <viz:size value="68.54486"></viz:size>
+        <viz:position x="-828.61066" y="304.3631" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="ISL" label="Iceland">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.797619047619047"></attvalue>
+          <attvalue for="betweenesscentrality" value="319.1666666666665"></attvalue>
+        </attvalues>
+        <viz:size value="8.862143"></viz:size>
+        <viz:position x="-2171.9526" y="221.62827" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="RUS" label="Russian Federation">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.5476190476190474"></attvalue>
+          <attvalue for="betweenesscentrality" value="3245.099999999999"></attvalue>
+        </attvalues>
+        <viz:size value="53.43541"></viz:size>
+        <viz:position x="-1675.8556" y="-438.93317" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="JPN" label="Japan">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.31547619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="1542.7666666666662"></attvalue>
+        </attvalues>
+        <viz:size value="27.502296"></viz:size>
+        <viz:position x="-1779.1959" y="-878.0483" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="PYF" label="French Polynesia">
+        <attvalues>
+          <attvalue for="region" value="Oceania"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.9226190476190474"></attvalue>
+          <attvalue for="betweenesscentrality" value="1402.2333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="25.361431"></viz:size>
+        <viz:position x="-1355.4856" y="-200.86842" z="0.0"></viz:position>
+        <viz:color r="178" g="158" b="36"></viz:color>
+      </node>
+      <node id="WSM" label="Samoa">
+        <attvalues>
+          <attvalue for="region" value="Oceania"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.672619047619047"></attvalue>
+          <attvalue for="betweenesscentrality" value="1277.2333333333336"></attvalue>
+        </attvalues>
+        <viz:size value="23.4572"></viz:size>
+        <viz:position x="-1269.6863" y="-527.92847" z="0.0"></viz:position>
+        <viz:color r="178" g="158" b="36"></viz:color>
+      </node>
+      <node id="ASM" label="American Samoa">
+        <attvalues>
+          <attvalue for="region" value="Oceania"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.345238095238095"></attvalue>
+          <attvalue for="betweenesscentrality" value="1163.7333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="21.728155"></viz:size>
+        <viz:position x="-1273.2466" y="-880.86786" z="0.0"></viz:position>
+        <viz:color r="178" g="158" b="36"></viz:color>
+      </node>
+      <node id="TON" label="Tonga">
+        <attvalues>
+          <attvalue for="region" value="Oceania"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.958333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="1060.7333333333331"></attvalue>
+        </attvalues>
+        <viz:size value="20.159067"></viz:size>
+        <viz:position x="-1211.6145" y="-1182.8347" z="0.0"></viz:position>
+        <viz:color r="178" g="158" b="36"></viz:color>
+      </node>
+      <node id="FJI" label="Fiji">
+        <attvalues>
+          <attvalue for="region" value="Oceania"></attvalue>
+          <attvalue for="eccentricity" value="21.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.511904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="967.7333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="18.742317"></viz:size>
+        <viz:position x="-1129.6135" y="-1458.6803" z="0.0"></viz:position>
+        <viz:color r="178" g="158" b="36"></viz:color>
+      </node>
+      <node id="VUT" label="Vanuatu">
+        <attvalues>
+          <attvalue for="region" value="Oceania"></attvalue>
+          <attvalue for="eccentricity" value="22.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="886.2333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="17.500757"></viz:size>
+        <viz:position x="-1030.4535" y="-1718.0187" z="0.0"></viz:position>
+        <viz:color r="178" g="158" b="36"></viz:color>
+      </node>
+      <node id="NZL" label="New Zealand">
+        <attvalues>
+          <attvalue for="region" value="Oceania"></attvalue>
+          <attvalue for="eccentricity" value="23.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.422619047619047"></attvalue>
+          <attvalue for="betweenesscentrality" value="815.7333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="16.42677"></viz:size>
+        <viz:position x="-918.09235" y="-1970.5383" z="0.0"></viz:position>
+        <viz:color r="178" g="158" b="36"></viz:color>
+      </node>
+      <node id="AUS" label="Australia">
+        <attvalues>
+          <attvalue for="region" value="Oceania"></attvalue>
+          <attvalue for="eccentricity" value="24.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.767857142857142"></attvalue>
+          <attvalue for="betweenesscentrality" value="929.0666666666666"></attvalue>
+        </attvalues>
+        <viz:size value="18.153276"></viz:size>
+        <viz:position x="-792.8187" y="-2229.561" z="0.0"></viz:position>
+        <viz:color r="178" g="158" b="36"></viz:color>
+      </node>
+      <node id="SLB" label="Solomon Islands">
+        <attvalues>
+          <attvalue for="region" value="Oceania"></attvalue>
+          <attvalue for="eccentricity" value="25.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="167.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.544055"></viz:size>
+        <viz:position x="-685.8598" y="-2224.51" z="0.0"></viz:position>
+        <viz:color r="178" g="158" b="36"></viz:color>
+      </node>
+      <node id="PNG" label="Papua New Guinea">
+        <attvalues>
+          <attvalue for="region" value="Oceania"></attvalue>
+          <attvalue for="eccentricity" value="26.0"></attvalue>
+          <attvalue for="closnesscentrality" value="13.744047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-623.30206" y="-2199.3708" z="0.0"></viz:position>
+        <viz:color r="178" g="158" b="36"></viz:color>
+      </node>
+      <node id="NCL" label="New Caledonia">
+        <attvalues>
+          <attvalue for="region" value="Oceania"></attvalue>
+          <attvalue for="eccentricity" value="25.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.761904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-794.7748" y="-2166.744" z="0.0"></viz:position>
+        <viz:color r="178" g="158" b="36"></viz:color>
+      </node>
+      <node id="CRI" label="Costa Rica">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="285.40000000000003"></attvalue>
+        </attvalues>
+        <viz:size value="8.347745"></viz:size>
+        <viz:position x="-1268.2391" y="832.78094" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="NIC" label="Nicaragua">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.648809523809524"></attvalue>
+          <attvalue for="betweenesscentrality" value="184.89999999999995"></attvalue>
+        </attvalues>
+        <viz:size value="6.816741"></viz:size>
+        <viz:position x="-1157.8212" y="1077.8267" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="HND" label="Honduras">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.761904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="148.56666666666658"></attvalue>
+        </attvalues>
+        <viz:size value="6.2632446"></viz:size>
+        <viz:position x="-1007.965" y="1268.7351" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="GTM" label="Guatemala">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.613095238095237"></attvalue>
+          <attvalue for="betweenesscentrality" value="169.56666666666655"></attvalue>
+        </attvalues>
+        <viz:size value="6.5831556"></viz:size>
+        <viz:position x="-820.01215" y="1409.6193" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="BLZ" label="Belize">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.303571428571429"></attvalue>
+          <attvalue for="betweenesscentrality" value="246.99999999999994"></attvalue>
+        </attvalues>
+        <viz:size value="7.762765"></viz:size>
+        <viz:position x="-599.0798" y="1505.9886" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="CUW" label="CuraÃ§ao">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.369047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="379.6"></attvalue>
+        </attvalues>
+        <viz:size value="9.782775"></viz:size>
+        <viz:position x="-352.45645" y="1566.1276" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="PRI" label="Puerto Rico">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="15.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.434523809523809"></attvalue>
+          <attvalue for="betweenesscentrality" value="3926.6"></attvalue>
+        </attvalues>
+        <viz:size value="63.817287"></viz:size>
+        <viz:position x="-90.04483" y="1600.9144" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="VIR" label="U.S. Virgin Islands">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="14.0"></attvalue>
+          <attvalue for="closnesscentrality" value="6.785714285714286"></attvalue>
+          <attvalue for="betweenesscentrality" value="6301.750000000003"></attvalue>
+        </attvalues>
+        <viz:size value="100.00001"></viz:size>
+        <viz:position x="179.44185" y="1055.5522" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="VEN" label="Venezuela">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.291666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="1650.0"></attvalue>
+        </attvalues>
+        <viz:size value="29.135874"></viz:size>
+        <viz:position x="-256.48056" y="1852.3518" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="GUF" label="French Guiana">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.291666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="1650.0"></attvalue>
+        </attvalues>
+        <viz:size value="29.135874"></viz:size>
+        <viz:position x="46.97286" y="1861.616" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="VGB" label="British Virgin Islands">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="15.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.738095238095238"></attvalue>
+          <attvalue for="betweenesscentrality" value="275.3333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="8.194391"></viz:size>
+        <viz:position x="-85.84132" y="994.36975" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="DOM" label="Dominican Republic">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="15.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.375"></attvalue>
+          <attvalue for="betweenesscentrality" value="169.33333333333334"></attvalue>
+        </attvalues>
+        <viz:size value="6.5796013"></viz:size>
+        <viz:position x="-355.84583" y="901.49316" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="TCA" label="Turks and Caicos Islands">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.654761904761905"></attvalue>
+          <attvalue for="betweenesscentrality" value="130.66666666666666"></attvalue>
+        </attvalues>
+        <viz:size value="5.9905577"></viz:size>
+        <viz:position x="-621.3167" y="773.7251" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="BHS" label="Bahamas">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.625"></attvalue>
+          <attvalue for="betweenesscentrality" value="127.33333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="5.939779"></viz:size>
+        <viz:position x="-878.5277" y="608.93036" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="ABW" label="Aruba">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.148809523809524"></attvalue>
+          <attvalue for="betweenesscentrality" value="1506.0"></attvalue>
+        </attvalues>
+        <viz:size value="26.9422"></viz:size>
+        <viz:position x="-413.24384" y="2068.5122" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="COL" label="Colombia">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.005952380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="1362.0"></attvalue>
+        </attvalues>
+        <viz:size value="24.748522"></viz:size>
+        <viz:position x="-553.2303" y="2257.0881" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="CYM" label="Cayman Islands">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.863095238095237"></attvalue>
+          <attvalue for="betweenesscentrality" value="1218.0"></attvalue>
+        </attvalues>
+        <viz:size value="22.554848"></viz:size>
+        <viz:position x="-671.84143" y="2427.2605" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="JAM" label="Jamaica">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.720238095238095"></attvalue>
+          <attvalue for="betweenesscentrality" value="1074.0"></attvalue>
+        </attvalues>
+        <viz:size value="20.36117"></viz:size>
+        <viz:position x="-764.0163" y="2586.9724" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="CUB" label="Cuba">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="21.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.577380952380953"></attvalue>
+          <attvalue for="betweenesscentrality" value="930.0"></attvalue>
+        </attvalues>
+        <viz:size value="18.167494"></viz:size>
+        <viz:position x="-823.423" y="2741.55" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="HTI" label="Haiti">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="22.0"></attvalue>
+          <attvalue for="closnesscentrality" value="13.43452380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="786.0"></attvalue>
+        </attvalues>
+        <viz:size value="15.973817"></viz:size>
+        <viz:position x="-843.2079" y="2891.9807" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="MAF" label="Saint-Martin">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="23.0"></attvalue>
+          <attvalue for="closnesscentrality" value="14.291666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="642.0"></attvalue>
+        </attvalues>
+        <viz:size value="13.78014"></viz:size>
+        <viz:position x="-818.77203" y="3033.783" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="BLM" label="Saint-BarthÃ©lemy">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="24.0"></attvalue>
+          <attvalue for="closnesscentrality" value="15.148809523809524"></attvalue>
+          <attvalue for="betweenesscentrality" value="498.0"></attvalue>
+        </attvalues>
+        <viz:size value="11.586465"></viz:size>
+        <viz:position x="-751.2292" y="3158.8618" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="AIA" label="Anguilla">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="25.0"></attvalue>
+          <attvalue for="closnesscentrality" value="16.00595238095238"></attvalue>
+          <attvalue for="betweenesscentrality" value="354.0"></attvalue>
+        </attvalues>
+        <viz:size value="9.392788"></viz:size>
+        <viz:position x="-647.7021" y="3259.7761" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="KNA" label="Saint Kitts and Nevis">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="26.0"></attvalue>
+          <attvalue for="closnesscentrality" value="16.863095238095237"></attvalue>
+          <attvalue for="betweenesscentrality" value="210.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.199111"></viz:size>
+        <viz:position x="-518.1438" y="3332.244" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="MSR" label="Montserrat">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="27.0"></attvalue>
+          <attvalue for="closnesscentrality" value="17.720238095238095"></attvalue>
+          <attvalue for="betweenesscentrality" value="66.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.005435"></viz:size>
+        <viz:position x="-372.4625" y="3374.5747" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="ATG" label="Antigua and Barbuda">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="27.0"></attvalue>
+          <attvalue for="closnesscentrality" value="17.720238095238095"></attvalue>
+          <attvalue for="betweenesscentrality" value="66.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.005435"></viz:size>
+        <viz:position x="-219.5997" y="3386.212" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="GLP" label="Guadeloupe">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="26.0"></attvalue>
+          <attvalue for="closnesscentrality" value="16.863095238095237"></attvalue>
+          <attvalue for="betweenesscentrality" value="210.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.199111"></viz:size>
+        <viz:position x="-67.8594" y="3366.7874" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="DMA" label="Dominica">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="25.0"></attvalue>
+          <attvalue for="closnesscentrality" value="16.00595238095238"></attvalue>
+          <attvalue for="betweenesscentrality" value="354.0"></attvalue>
+        </attvalues>
+        <viz:size value="9.392788"></viz:size>
+        <viz:position x="74.39119" y="3315.9878" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="MTQ" label="Martinique">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="24.0"></attvalue>
+          <attvalue for="closnesscentrality" value="15.148809523809524"></attvalue>
+          <attvalue for="betweenesscentrality" value="498.0"></attvalue>
+        </attvalues>
+        <viz:size value="11.586465"></viz:size>
+        <viz:position x="198.27434" y="3234.15" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="LCA" label="Saint Lucia">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="23.0"></attvalue>
+          <attvalue for="closnesscentrality" value="14.291666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="642.0"></attvalue>
+        </attvalues>
+        <viz:size value="13.78014"></viz:size>
+        <viz:position x="294.78586" y="3123.407" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="BRB" label="Barbados">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="22.0"></attvalue>
+          <attvalue for="closnesscentrality" value="13.43452380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="786.0"></attvalue>
+        </attvalues>
+        <viz:size value="15.973817"></viz:size>
+        <viz:position x="356.60123" y="2988.4495" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="VCT" label="Saint Vincent and the Grenadines">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="21.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.577380952380953"></attvalue>
+          <attvalue for="betweenesscentrality" value="930.0"></attvalue>
+        </attvalues>
+        <viz:size value="18.167494"></viz:size>
+        <viz:position x="380.50723" y="2835.5325" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="GRD" label="Grenada">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.720238095238095"></attvalue>
+          <attvalue for="betweenesscentrality" value="1074.0"></attvalue>
+        </attvalues>
+        <viz:size value="20.36117"></viz:size>
+        <viz:position x="368.16876" y="2669.6592" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="TTO" label="Trinidad and Tobago">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.863095238095237"></attvalue>
+          <attvalue for="betweenesscentrality" value="1218.0"></attvalue>
+        </attvalues>
+        <viz:size value="22.554848"></viz:size>
+        <viz:position x="324.27457" y="2492.4226" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="GUY" label="Guyana">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.005952380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="1362.0"></attvalue>
+        </attvalues>
+        <viz:size value="24.748522"></viz:size>
+        <viz:position x="253.9531" y="2301.8591" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="SUR" label="Suriname">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.148809523809524"></attvalue>
+          <attvalue for="betweenesscentrality" value="1506.0"></attvalue>
+        </attvalues>
+        <viz:size value="26.9422"></viz:size>
+        <viz:position x="161.03313" y="2093.5117" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="PAN" label="Panama">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="14.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.178571428571429"></attvalue>
+          <attvalue for="betweenesscentrality" value="3800.1499999999983"></attvalue>
+        </attvalues>
+        <viz:size value="61.89097"></viz:size>
+        <viz:position x="980.9071" y="1173.2426" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="ECU" label="Ecuador">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="15.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.142857142857142"></attvalue>
+          <attvalue for="betweenesscentrality" value="276.5"></attvalue>
+        </attvalues>
+        <viz:size value="8.212164"></viz:size>
+        <viz:position x="1089.1727" y="1283.7394" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="PER" label="Peru">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.107142857142858"></attvalue>
+          <attvalue for="betweenesscentrality" value="114.5"></attvalue>
+        </attvalues>
+        <viz:size value="5.744277"></viz:size>
+        <viz:position x="1211.4406" y="1348.6083" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="CHL" label="Chile">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.779761904761905"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.045701"></viz:size>
+        <viz:position x="1340.6788" y="1349.9005" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="ARG" label="Argentina">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.470238095238095"></attvalue>
+          <attvalue for="betweenesscentrality" value="53.5"></attvalue>
+        </attvalues>
+        <viz:size value="4.8150115"></viz:size>
+        <viz:position x="1461.6968" y="1282.5979" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="URY" label="Uruguay">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.505952380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="215.5"></attvalue>
+        </attvalues>
+        <viz:size value="7.282898"></viz:size>
+        <viz:position x="1570.5387" y="1157.6598" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="BRA" label="Brazil">
+        <attvalues>
+          <attvalue for="region" value="Latin America &amp; Caribbean"></attvalue>
+          <attvalue for="eccentricity" value="15.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.541666666666667"></attvalue>
+          <attvalue for="betweenesscentrality" value="4294.633333333332"></attvalue>
+        </attvalues>
+        <viz:size value="69.42387"></viz:size>
+        <viz:position x="1670.5656" y="821.93884" z="0.0"></viz:position>
+        <viz:color r="77" g="178" b="36"></viz:color>
+      </node>
+      <node id="SEN" label="Senegal">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.25"></attvalue>
+          <attvalue for="betweenesscentrality" value="911.9833333333335"></attvalue>
+        </attvalues>
+        <viz:size value="17.89303"></viz:size>
+        <viz:position x="1551.0345" y="609.32446" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="NGA" label="Nigeria">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.43452380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="1154.5666666666666"></attvalue>
+        </attvalues>
+        <viz:size value="21.588512"></viz:size>
+        <viz:position x="2148.7393" y="936.85626" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="SHN" label="Saint Helena">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.482142857142858"></attvalue>
+          <attvalue for="betweenesscentrality" value="431.56666666666666"></attvalue>
+        </attvalues>
+        <viz:size value="10.574429"></viz:size>
+        <viz:position x="1823.1611" y="984.1991" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="AGO" label="Angola">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.220238095238095"></attvalue>
+          <attvalue for="betweenesscentrality" value="420.93333333333334"></attvalue>
+        </attvalues>
+        <viz:size value="10.412441"></viz:size>
+        <viz:position x="1988.4164" y="1038.4562" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="ZAF" label="South Africa">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.083333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="2231.200000000001"></attvalue>
+        </attvalues>
+        <viz:size value="37.989796"></viz:size>
+        <viz:position x="1898.7878" y="432.63748" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="ESP" label="Spain">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="14.0"></attvalue>
+          <attvalue for="closnesscentrality" value="6.738095238095238"></attvalue>
+          <attvalue for="betweenesscentrality" value="5240.083333333335"></attvalue>
+        </attvalues>
+        <viz:size value="83.82672"></viz:size>
+        <viz:position x="-118.62555" y="539.73724" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="IDN" label="Indonesia">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="25.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.952380952380953"></attvalue>
+          <attvalue for="betweenesscentrality" value="568.4"></attvalue>
+        </attvalues>
+        <viz:size value="12.658928"></viz:size>
+        <viz:position x="-723.0938" y="-2454.1309" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="SGP" label="Singapore">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="26.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.910714285714286"></attvalue>
+          <attvalue for="betweenesscentrality" value="1093.0666666666666"></attvalue>
+        </attvalues>
+        <viz:size value="20.651628"></viz:size>
+        <viz:position x="-675.9613" y="-2641.356" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="MYS" label="Malaysia">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="26.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.886904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="923.9999999999998"></attvalue>
+        </attvalues>
+        <viz:size value="18.076092"></viz:size>
+        <viz:position x="-214.4551" y="-2591.0596" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="MMR" label="Myanmar">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="25.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.625"></attvalue>
+          <attvalue for="betweenesscentrality" value="967.9999999999998"></attvalue>
+        </attvalues>
+        <viz:size value="18.746382"></viz:size>
+        <viz:position x="220.52501" y="-2496.675" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="BGD" label="Bangladesh">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="24.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.291666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="1023.9999999999998"></attvalue>
+        </attvalues>
+        <viz:size value="19.599476"></viz:size>
+        <viz:position x="648.1855" y="-2359.329" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="LKA" label="Sri Lanka">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="23.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.791666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="1107.4999999999998"></attvalue>
+        </attvalues>
+        <viz:size value="20.871506"></viz:size>
+        <viz:position x="1087.0166" y="-2170.5288" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="THA" label="Thailand">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="26.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.31547619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="281.8333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="8.29341"></viz:size>
+        <viz:position x="-903.3387" y="-2608.7805" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="KHM" label="Cambodia">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="25.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.261904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="298.1666666666667"></attvalue>
+        </attvalues>
+        <viz:size value="8.542231"></viz:size>
+        <viz:position x="-1126.2946" y="-2534.596" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="VNM" label="Vietnam">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="24.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.898809523809524"></attvalue>
+          <attvalue for="betweenesscentrality" value="351.4999999999999"></attvalue>
+        </attvalues>
+        <viz:size value="9.354704"></viz:size>
+        <viz:position x="-1331.0415" y="-2430.6018" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="MAC" label="Macao">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="23.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.422619047619047"></attvalue>
+          <attvalue for="betweenesscentrality" value="431.49999999999983"></attvalue>
+        </attvalues>
+        <viz:size value="10.573414"></viz:size>
+        <viz:position x="-1513.4634" y="-2306.5876" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="HKG" label="Hong Kong">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="22.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.886904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="522.3333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="11.957153"></viz:size>
+        <viz:position x="-1670.8934" y="-2170.5818" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="CHN" label="China">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="21.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.279761904761905"></attvalue>
+          <attvalue for="betweenesscentrality" value="1229.2666666666669"></attvalue>
+        </attvalues>
+        <viz:size value="22.726482"></viz:size>
+        <viz:position x="-1797.4506" y="-2034.2499" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="TWN" label="Taiwan">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.69047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="1313.2666666666662"></attvalue>
+        </attvalues>
+        <viz:size value="24.006126"></viz:size>
+        <viz:position x="-1840.3778" y="-1662.0802" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="KOR" label="Republic of Korea">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.041666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="1421.7666666666662"></attvalue>
+        </attvalues>
+        <viz:size value="25.659002"></viz:size>
+        <viz:position x="-1834.2539" y="-1281.3181" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="MHL" label="Marshall Islands">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="22.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.053571428571429"></attvalue>
+          <attvalue for="betweenesscentrality" value="491.59999999999997"></attvalue>
+        </attvalues>
+        <viz:size value="11.488968"></viz:size>
+        <viz:position x="-1784.0126" y="-2261.0374" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="FSM" label="Federated States of Micronesia">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="23.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.625"></attvalue>
+          <attvalue for="betweenesscentrality" value="395.59999999999997"></attvalue>
+        </attvalues>
+        <viz:size value="10.026517"></viz:size>
+        <viz:position x="-1698.5343" y="-2461.4731" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="MNP" label="Northern Mariana Islands">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="24.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.136904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="310.59999999999997"></attvalue>
+        </attvalues>
+        <viz:size value="8.731639"></viz:size>
+        <viz:position x="-1554.7861" y="-2621.3486" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="GUM" label="Guam">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="25.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.577380952380953"></attvalue>
+          <attvalue for="betweenesscentrality" value="239.93333333333334"></attvalue>
+        </attvalues>
+        <viz:size value="7.655112"></viz:size>
+        <viz:position x="-1365.9779" y="-2729.3762" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="PHL" label="Philippines">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="26.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.761904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="204.76666666666668"></attvalue>
+        </attvalues>
+        <viz:size value="7.1193867"></viz:size>
+        <viz:position x="-1145.9242" y="-2775.6611" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="BRN" label="Brunei Darussalam">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="27.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.761904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="233.83333333333331"></attvalue>
+        </attvalues>
+        <viz:size value="7.562185"></viz:size>
+        <viz:position x="-909.5469" y="-2750.51" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="IND" label="India">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="22.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.154761904761905"></attvalue>
+          <attvalue for="betweenesscentrality" value="1990.9500000000012"></attvalue>
+        </attvalues>
+        <viz:size value="34.32986"></viz:size>
+        <viz:position x="1511.9598" y="-1951.3698" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="MDV" label="Maldives">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="21.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.982142857142858"></attvalue>
+          <attvalue for="betweenesscentrality" value="1293.283333333333"></attvalue>
+        </attvalues>
+        <viz:size value="23.701704"></viz:size>
+        <viz:position x="1699.2017" y="-1608.0724" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="MUS" label="Mauritius">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.708333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="1339.6166666666666"></attvalue>
+        </attvalues>
+        <viz:size value="24.40754"></viz:size>
+        <viz:position x="1849.3453" y="-1274.4923" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="REU" label="RÃ©union">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.375"></attvalue>
+          <attvalue for="betweenesscentrality" value="1395.9500000000003"></attvalue>
+        </attvalues>
+        <viz:size value="25.265713"></viz:size>
+        <viz:position x="1973.9235" y="-945.5505" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="MDG" label="Madagascar">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.976190476190476"></attvalue>
+          <attvalue for="betweenesscentrality" value="2017.9500000000007"></attvalue>
+        </attvalues>
+        <viz:size value="34.741177"></viz:size>
+        <viz:position x="2079.3054" y="-617.4747" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="COM" label="Comoros">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.910714285714286"></attvalue>
+          <attvalue for="betweenesscentrality" value="465.9999999999999"></attvalue>
+        </attvalues>
+        <viz:size value="11.098981"></viz:size>
+        <viz:position x="1749.9219" y="-455.53864" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="TZA" label="United Republic Of Tanzania">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.660714285714286"></attvalue>
+          <attvalue for="betweenesscentrality" value="346.91666666666663"></attvalue>
+        </attvalues>
+        <viz:size value="9.284882"></viz:size>
+        <viz:position x="1517.7555" y="-567.07605" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="MYT" label="Mayotte">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="21.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.023809523809524"></attvalue>
+          <attvalue for="betweenesscentrality" value="271.9166666666667"></attvalue>
+        </attvalues>
+        <viz:size value="8.142342"></viz:size>
+        <viz:position x="1475.0182" y="-776.9378" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="SYC" label="Seychelles">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="22.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.321428571428571"></attvalue>
+          <attvalue for="betweenesscentrality" value="221.58333333333331"></attvalue>
+        </attvalues>
+        <viz:size value="7.37557"></viz:size>
+        <viz:position x="1469.3387" y="-916.7015" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="KEN" label="Kenya">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="23.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.511904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="189.5833333333333"></attvalue>
+        </attvalues>
+        <viz:size value="6.8880873"></viz:size>
+        <viz:position x="1410.1866" y="-1120.2328" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="SOM" label="Somalia">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="24.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.488095238095237"></attvalue>
+          <attvalue for="betweenesscentrality" value="226.24999999999991"></attvalue>
+        </attvalues>
+        <viz:size value="7.4466615"></viz:size>
+        <viz:position x="1442.8019" y="-1340.7234" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="DJI" label="Djibouti">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="23.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.553571428571429"></attvalue>
+          <attvalue for="betweenesscentrality" value="910.0000000000002"></attvalue>
+        </attvalues>
+        <viz:size value="17.862818"></viz:size>
+        <viz:position x="1490.4543" y="-1735.2476" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="MOZ" label="Mozambique">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.577380952380953"></attvalue>
+          <attvalue for="betweenesscentrality" value="2026.3666666666668"></attvalue>
+        </attvalues>
+        <viz:size value="34.869392"></viz:size>
+        <viz:position x="2005.5106" y="-106.487656" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="NAM" label="Namibia">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.017857142857142"></attvalue>
+          <attvalue for="betweenesscentrality" value="142.36666666666665"></attvalue>
+        </attvalues>
+        <viz:size value="6.1687946"></viz:size>
+        <viz:position x="1966.0559" y="663.1449" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="COD" label="The Democratic Republic Of The Congo">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.166666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="260.9333333333334"></attvalue>
+        </attvalues>
+        <viz:size value="7.9750223"></viz:size>
+        <viz:position x="2122.543" y="1126.5854" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="COG" label="Republic of the Congo">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.113095238095237"></attvalue>
+          <attvalue for="betweenesscentrality" value="103.93333333333332"></attvalue>
+        </attvalues>
+        <viz:size value="5.583306"></viz:size>
+        <viz:position x="2238.2764" y="1281.2546" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="STP" label="Sao Tome and Principe">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.005952380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="11.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.167572"></viz:size>
+        <viz:position x="2345.2146" y="1360.5101" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="GAB" label="Gabon">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.267857142857142"></attvalue>
+          <attvalue for="betweenesscentrality" value="74.06666666666668"></attvalue>
+        </attvalues>
+        <viz:size value="5.1283216"></viz:size>
+        <viz:position x="2424.9863" y="1336.8978" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="GNQ" label="Equatorial Guinea">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.327380952380953"></attvalue>
+          <attvalue for="betweenesscentrality" value="232.06666666666666"></attvalue>
+        </attvalues>
+        <viz:size value="7.5352726"></viz:size>
+        <viz:position x="2409.0327" y="1232.5817" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="CMR" label="Cameroon">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.380952380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="391.06666666666666"></attvalue>
+        </attvalues>
+        <viz:size value="9.957457"></viz:size>
+        <viz:position x="2310.3381" y="1098.8899" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="BEN" label="Benin">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.375"></attvalue>
+          <attvalue for="betweenesscentrality" value="468.5"></attvalue>
+        </attvalues>
+        <viz:size value="11.137065"></viz:size>
+        <viz:position x="2375.239" y="855.1483" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="TGO" label="Togo">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.31547619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="310.5"></attvalue>
+        </attvalues>
+        <viz:size value="8.730115"></viz:size>
+        <viz:position x="2534.4968" y="764.0515" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="GHA" label="Ghana">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.255952380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="152.5"></attvalue>
+        </attvalues>
+        <viz:size value="6.323164"></viz:size>
+        <viz:position x="2615.378" y="655.0889" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="CIV" label="CÃ´te d'Ivoire">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.089285714285714"></attvalue>
+          <attvalue for="betweenesscentrality" value="14.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.213274"></viz:size>
+        <viz:position x="2597.6458" y="543.5238" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="LBR" label="Liberia">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.988095238095237"></attvalue>
+          <attvalue for="betweenesscentrality" value="29.5"></attvalue>
+        </attvalues>
+        <viz:size value="4.449399"></viz:size>
+        <viz:position x="2488.5317" y="468.87186" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="SLE" label="Sierra Leone">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.071428571428571"></attvalue>
+          <attvalue for="betweenesscentrality" value="183.5"></attvalue>
+        </attvalues>
+        <viz:size value="6.7954144"></viz:size>
+        <viz:position x="2316.4941" y="442.18027" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="GIN" label="Guinea">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.130952380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="341.5"></attvalue>
+        </attvalues>
+        <viz:size value="9.202364"></viz:size>
+        <viz:position x="2094.188" y="459.2711" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="GMB" label="Gambia">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.19047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="499.5"></attvalue>
+        </attvalues>
+        <viz:size value="11.609314"></viz:size>
+        <viz:position x="1820.6594" y="520.0247" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="CPV" label="Cape Verde">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.279761904761905"></attvalue>
+          <attvalue for="betweenesscentrality" value="457.48333333333323"></attvalue>
+        </attvalues>
+        <viz:size value="10.969238"></viz:size>
+        <viz:position x="1169.457" y="519.6649" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="MRT" label="Mauritania">
+        <attvalues>
+          <attvalue for="region" value="Sub-Saharan Africa"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.863095238095238"></attvalue>
+          <attvalue for="betweenesscentrality" value="512.4833333333332"></attvalue>
+        </attvalues>
+        <viz:size value="11.8071"></viz:size>
+        <viz:position x="786.1422" y="443.1283" z="0.0"></viz:position>
+        <viz:color r="77" g="36" b="178"></viz:color>
+      </node>
+      <node id="PRT" label="Portugal">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="15.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.363095238095238"></attvalue>
+          <attvalue for="betweenesscentrality" value="1726.8000000000009"></attvalue>
+        </attvalues>
+        <viz:size value="30.305836"></viz:size>
+        <viz:position x="381.75708" y="364.35986" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="PAK" label="Pakistan">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="23.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.071428571428571"></attvalue>
+          <attvalue for="betweenesscentrality" value="534.0333333333335"></attvalue>
+        </attvalues>
+        <viz:size value="12.135393"></viz:size>
+        <viz:position x="1288.7831" y="-1937.296" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="IRN" label="Islamic Republic of Iran">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="24.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.988095238095237"></attvalue>
+          <attvalue for="betweenesscentrality" value="380.03333333333325"></attvalue>
+        </attvalues>
+        <viz:size value="9.789376"></viz:size>
+        <viz:position x="1118.4413" y="-1965.1014" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="IRQ" label="Iraq">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="25.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.732142857142858"></attvalue>
+          <attvalue for="betweenesscentrality" value="263.7"></attvalue>
+        </attvalues>
+        <viz:size value="8.01717"></viz:size>
+        <viz:position x="919.1339" y="-1974.263" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="KWT" label="Kuwait">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="26.0"></attvalue>
+          <attvalue for="closnesscentrality" value="13.041666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="202.36666666666662"></attvalue>
+        </attvalues>
+        <viz:size value="7.0828266"></viz:size>
+        <viz:position x="788.96387" y="-1933.586" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="OMN" label="Oman">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="26.0"></attvalue>
+          <attvalue for="closnesscentrality" value="13.089285714285714"></attvalue>
+          <attvalue for="betweenesscentrality" value="193.86666666666662"></attvalue>
+        </attvalues>
+        <viz:size value="6.9533386"></viz:size>
+        <viz:position x="773.0699" y="-1811.8102" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="QAT" label="Qatar">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="25.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.863095238095237"></attvalue>
+          <attvalue for="betweenesscentrality" value="232.86666666666662"></attvalue>
+        </attvalues>
+        <viz:size value="7.547459"></viz:size>
+        <viz:position x="750.7905" y="-1722.8514" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="BHR" label="Bahrain">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="24.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.43452380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="306.66666666666674"></attvalue>
+        </attvalues>
+        <viz:size value="8.671719"></viz:size>
+        <viz:position x="757.4509" y="-1575.3916" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="ARE" label="United Arab Emirates">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="23.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.678571428571429"></attvalue>
+          <attvalue for="betweenesscentrality" value="431.9666666666667"></attvalue>
+        </attvalues>
+        <viz:size value="10.580523"></viz:size>
+        <viz:position x="810.6173" y="-1482.9575" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="SAU" label="Saudi Arabia">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="22.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.761904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="585.9666666666666"></attvalue>
+        </attvalues>
+        <viz:size value="12.926537"></viz:size>
+        <viz:position x="895.6277" y="-1347.69" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="EGY" label="Egypt">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="21.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.845238095238095"></attvalue>
+          <attvalue for="betweenesscentrality" value="1496.9666666666674"></attvalue>
+        </attvalues>
+        <viz:size value="26.804586"></viz:size>
+        <viz:position x="758.0766" y="-1235.6982" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="JOR" label="Jordan">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="22.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.351190476190476"></attvalue>
+          <attvalue for="betweenesscentrality" value="759.6666666666665"></attvalue>
+        </attvalues>
+        <viz:size value="15.57266"></viz:size>
+        <viz:position x="1064.2021" y="-1134.3353" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="SDN" label="Sudan">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="23.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.654761904761905"></attvalue>
+          <attvalue for="betweenesscentrality" value="705.3333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="14.744951"></viz:size>
+        <viz:position x="1182.4055" y="-1455.0853" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="YEM" label="Yemen">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="24.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.81547619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="690.1666666666665"></attvalue>
+        </attvalues>
+        <viz:size value="14.513905"></viz:size>
+        <viz:position x="1405.4539" y="-1551.9456" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="CYP" label="Cyprus">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.345238095238095"></attvalue>
+          <attvalue for="betweenesscentrality" value="2038.8000000000002"></attvalue>
+        </attvalues>
+        <viz:size value="35.058804"></viz:size>
+        <viz:position x="322.13837" y="-1031.7762" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="LBY" label="Libyan Arab Jamahiriya">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.351190476190476"></attvalue>
+          <attvalue for="betweenesscentrality" value="926.7999999999998"></attvalue>
+        </attvalues>
+        <viz:size value="18.118748"></viz:size>
+        <viz:position x="403.08966" y="-753.46436" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="TUN" label="Tunisia">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.041666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="979.2999999999997"></attvalue>
+        </attvalues>
+        <viz:size value="18.918522"></viz:size>
+        <viz:position x="445.44116" y="-478.11496" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="DZA" label="Algeria">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.547619047619047"></attvalue>
+          <attvalue for="betweenesscentrality" value="1062.966666666666"></attvalue>
+        </attvalues>
+        <viz:size value="20.193092"></viz:size>
+        <viz:position x="453.16455" y="-202.54808" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="MAR" label="Morocco">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.982142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="1158.1333333333323"></attvalue>
+        </attvalues>
+        <viz:size value="21.642845"></viz:size>
+        <viz:position x="430.3392" y="76.85647" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="GIB" label="Gibraltar">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.357142857142858"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="393.76245" y="469.35703" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="MCO" label="Monaco">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.696428571428571"></attvalue>
+          <attvalue for="betweenesscentrality" value="263.66666666666663"></attvalue>
+        </attvalues>
+        <viz:size value="8.016663"></viz:size>
+        <viz:position x="-583.01306" y="177.77919" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="ITA" label="Italy">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.875"></attvalue>
+          <attvalue for="betweenesscentrality" value="516.1666666666666"></attvalue>
+        </attvalues>
+        <viz:size value="11.863213"></viz:size>
+        <viz:position x="-340.12988" y="167.10303" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="GGY" label="Guernesey">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="16.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.863095238095238"></attvalue>
+          <attvalue for="betweenesscentrality" value="291.0333333333334"></attvalue>
+        </attvalues>
+        <viz:size value="8.433562"></viz:size>
+        <viz:position x="-1262.088" y="357.5503" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="IRL" label="Ireland">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.952380952380953"></attvalue>
+          <attvalue for="betweenesscentrality" value="163.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.48312"></viz:size>
+        <viz:position x="-1833.8971" y="354.97348" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="FRO" label="Faroe Islands">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.839285714285714"></attvalue>
+          <attvalue for="betweenesscentrality" value="14.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.213274"></viz:size>
+        <viz:position x="-2032.2477" y="305.99478" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="POL" label="Poland">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="88.66666666666661"></attvalue>
+        </attvalues>
+        <viz:size value="5.3507357"></viz:size>
+        <viz:position x="-2293.5537" y="379.282" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="DNK" label="Denmark">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="21.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.696428571428571"></attvalue>
+          <attvalue for="betweenesscentrality" value="13.5"></attvalue>
+        </attvalues>
+        <viz:size value="4.205657"></viz:size>
+        <viz:position x="-2311.092" y="515.12103" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="DEU" label="Germany">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.839285714285714"></attvalue>
+          <attvalue for="betweenesscentrality" value="92.83333333333336"></attvalue>
+        </attvalues>
+        <viz:size value="5.4142103"></viz:size>
+        <viz:position x="-2222.299" y="598.23016" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="NLD" label="Netherlands">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.922619047619047"></attvalue>
+          <attvalue for="betweenesscentrality" value="245.33333333333326"></attvalue>
+        </attvalues>
+        <viz:size value="7.7373743"></viz:size>
+        <viz:position x="-2060.0312" y="600.38306" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="BEL" label="Belgium">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.976190476190476"></attvalue>
+          <attvalue for="betweenesscentrality" value="403.33333333333354"></attvalue>
+        </attvalues>
+        <viz:size value="10.144326"></viz:size>
+        <viz:position x="-1847.4397" y="524.0074" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="NOR" label="Norway">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.214285714285714"></attvalue>
+          <attvalue for="betweenesscentrality" value="77.70000000000006"></attvalue>
+        </attvalues>
+        <viz:size value="5.183671"></viz:size>
+        <viz:position x="-2214.546" y="7.280578" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="SWE" label="Sweden">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.345238095238095"></attvalue>
+          <attvalue for="betweenesscentrality" value="173.69999999999993"></attvalue>
+        </attvalues>
+        <viz:size value="6.6461225"></viz:size>
+        <viz:position x="-2170.1062" y="-192.7111" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="FIN" label="Finland">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.44047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="799.6999999999998"></attvalue>
+        </attvalues>
+        <viz:size value="16.18252"></viz:size>
+        <viz:position x="-2054.0984" y="-379.19388" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="EST" label="Estonia">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.410714285714286"></attvalue>
+          <attvalue for="betweenesscentrality" value="332.0"></attvalue>
+        </attvalues>
+        <viz:size value="9.057643"></viz:size>
+        <viz:position x="-2236.3777" y="-463.44427" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="LVA" label="Latvia">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.392857142857142"></attvalue>
+          <attvalue for="betweenesscentrality" value="167.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.544055"></viz:size>
+        <viz:position x="-2358.5447" y="-518.1485" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="LTU" label="Lithuania">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="21.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.386904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-2412.3035" y="-547.59247" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="HRV" label="Croatia">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="17.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.482142857142858"></attvalue>
+          <attvalue for="betweenesscentrality" value="413.16666666666663"></attvalue>
+        </attvalues>
+        <viz:size value="10.294125"></viz:size>
+        <viz:position x="-206.47583" y="-90.19548" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="MNE" label="MontÃ©nÃ©gro">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.035714285714286"></attvalue>
+          <attvalue for="betweenesscentrality" value="320.66666666666663"></attvalue>
+        </attvalues>
+        <viz:size value="8.884992"></viz:size>
+        <viz:position x="-75.960304" y="-334.57407" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="ALB" label="Albania">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.517857142857142"></attvalue>
+          <attvalue for="betweenesscentrality" value="239.66666666666666"></attvalue>
+        </attvalues>
+        <viz:size value="7.65105"></viz:size>
+        <viz:position x="54.60191" y="-570.8471" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="GRC" label="Greece">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.767857142857142"></attvalue>
+          <attvalue for="betweenesscentrality" value="197.66666666666669"></attvalue>
+        </attvalues>
+        <viz:size value="7.0112267"></viz:size>
+        <viz:position x="187.01521" y="-802.7357" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="ISR" label="Israel">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="21.0"></attvalue>
+          <attvalue for="closnesscentrality" value="10.31547619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="332.0"></attvalue>
+        </attvalues>
+        <viz:size value="9.057643"></viz:size>
+        <viz:position x="336.073" y="-1157.7434" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="LBN" label="Lebanon">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="22.0"></attvalue>
+          <attvalue for="closnesscentrality" value="11.297619047619047"></attvalue>
+          <attvalue for="betweenesscentrality" value="167.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.544055"></viz:size>
+        <viz:position x="336.87262" y="-1253.9478" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="SYR" label="Syrian Arab Republic">
+        <attvalues>
+          <attvalue for="region" value="Middle east &amp; North Africa"></attvalue>
+          <attvalue for="eccentricity" value="23.0"></attvalue>
+          <attvalue for="closnesscentrality" value="12.291666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="329.55856" y="-1308.4827" z="0.0"></viz:position>
+        <viz:color r="178" g="36" b="36"></viz:color>
+      </node>
+      <node id="TUR" label="Turkey">
+        <attvalues>
+          <attvalue for="region" value="Asia"></attvalue>
+          <attvalue for="eccentricity" value="21.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.744047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="824.3333333333331"></attvalue>
+        </attvalues>
+        <viz:size value="16.557781"></viz:size>
+        <viz:position x="-42.371857" y="-996.65765" z="0.0"></viz:position>
+        <viz:color r="36" g="117" b="178"></viz:color>
+      </node>
+      <node id="BGR" label="Bulgaria">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="21.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.738095238095237"></attvalue>
+          <attvalue for="betweenesscentrality" value="824.3333333333331"></attvalue>
+        </attvalues>
+        <viz:size value="16.557781"></viz:size>
+        <viz:position x="-386.36935" y="-933.8353" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="ROU" label="Romania">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="20.0"></attvalue>
+          <attvalue for="closnesscentrality" value="9.297619047619047"></attvalue>
+          <attvalue for="betweenesscentrality" value="896.3333333333331"></attvalue>
+        </attvalues>
+        <viz:size value="17.65462"></viz:size>
+        <viz:position x="-719.7106" y="-846.7714" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="UKR" label="Ukraine">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="19.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.761904761904763"></attvalue>
+          <attvalue for="betweenesscentrality" value="986.3333333333331"></attvalue>
+        </attvalues>
+        <viz:size value="19.02567"></viz:size>
+        <viz:position x="-1049.5302" y="-738.32983" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="GEO" label="Georgia">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="18.0"></attvalue>
+          <attvalue for="closnesscentrality" value="8.178571428571429"></attvalue>
+          <attvalue for="betweenesscentrality" value="1084.333333333333"></attvalue>
+        </attvalues>
+        <viz:size value="20.518589"></viz:size>
+        <viz:position x="-1412.6658" y="-651.0784" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+      <node id="MLT" label="Malta">
+        <attvalues>
+          <attvalue for="region" value="Europe"></attvalue>
+          <attvalue for="eccentricity" value="15.0"></attvalue>
+          <attvalue for="closnesscentrality" value="7.565476190476191"></attvalue>
+          <attvalue for="betweenesscentrality" value="339.0"></attvalue>
+        </attvalues>
+        <viz:size value="9.16428"></viz:size>
+        <viz:position x="-225.14122" y="356.46814" z="0.0"></viz:position>
+        <viz:color r="36" g="178" b="117"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="USA--CAN" source="USA" target="CAN" weight="0.16066708">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Vinland"></attvalue>
+          <attvalue for="edgebetweenness" value="0.16066707341875128"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="USA--MEX" source="USA" target="MEX" weight="0.13768558">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.13768558063860079"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="USA--BMU" source="USA" target="BMU" weight="0.08013016">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.08013016066707342"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="USA--GBR" source="USA" target="GBR" weight="0.15924343">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Vinland"></attvalue>
+          <attvalue for="edgebetweenness" value="0.15924344112263575"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="USA--FRA" source="USA" target="FRA" weight="0.8214358">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Vinland"></attvalue>
+          <attvalue for="edgebetweenness" value="0.8214358348586537"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="USA--RUS" source="USA" target="RUS" weight="0.59589183">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Dezhnyov"></attvalue>
+          <attvalue for="edgebetweenness" value="0.5958918039454952"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="USA--PYF" source="USA" target="PYF" weight="0.32641855">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Kon-Tiki"></attvalue>
+          <attvalue for="edgebetweenness" value="0.326418547895058"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CAN--GRL" source="CAN" target="GRL" weight="0.12873703">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Vinland"></attvalue>
+          <attvalue for="edgebetweenness" value="0.12873703477730322"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GRL--ISL" source="GRL" target="ISL" weight="0.097925566">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Vinland"></attvalue>
+          <attvalue for="edgebetweenness" value="0.09792556436851739"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MEX--CRI" source="MEX" target="CRI" weight="0.105043724">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.10504372584909498"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GBR--IRL" source="GBR" target="IRL" weight="0.06711409">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06711409395973154"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="FRA--MCO" source="FRA" target="MCO" weight="0.08592638">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.0859263778726866"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="FRA--GGY" source="FRA" target="GGY" weight="0.10646736">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.1064673581452105"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ISL--POL" source="ISL" target="POL" weight="0.061317876">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.061317876754118365"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ISL--NOR" source="ISL" target="NOR" weight="0.045556232">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.04555623347569656"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="RUS--JPN" source="RUS" target="JPN" weight="0.36302623">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Dezhnyov"></attvalue>
+          <attvalue for="edgebetweenness" value="0.363026235509457"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="PYF--WSM" source="PYF" target="WSM" weight="0.29906446">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Kon-Tiki"></attvalue>
+          <attvalue for="edgebetweenness" value="0.2990644702054098"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="WSM--ASM" source="WSM" target="ASM" weight="0.2741509">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Kon-Tiki"></attvalue>
+          <attvalue for="edgebetweenness" value="0.27415090502338824"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ASM--TON" source="ASM" target="TON" weight="0.25157616">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Kon-Tiki"></attvalue>
+          <attvalue for="edgebetweenness" value="0.2515761643278422"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="TON--FJI" source="TON" target="FJI" weight="0.23103519">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Kon-Tiki"></attvalue>
+          <attvalue for="edgebetweenness" value="0.23103518405531828"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="FJI--VUT" source="FJI" target="VUT" weight="0.21252796">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Kon-Tiki"></attvalue>
+          <attvalue for="edgebetweenness" value="0.21252796420581654"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="VUT--NZL" source="VUT" target="NZL" weight="0.19656295">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Kon-Tiki"></attvalue>
+          <attvalue for="edgebetweenness" value="0.19656294488509254"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="NZL--AUS" source="NZL" target="AUS" weight="0.18232661">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Kon-Tiki"></attvalue>
+          <attvalue for="edgebetweenness" value="0.18232662192393737"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="AUS--SLB" source="AUS" target="SLB" weight="0.06975798">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Kon-Tiki"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06975798250966037"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="AUS--NCL" source="AUS" target="NCL" weight="0.035082366">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Kon-Tiki"></attvalue>
+          <attvalue for="edgebetweenness" value="0.0350823672971324"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="AUS--IDN" source="AUS" target="IDN" weight="0.13829571">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.13829570876550742"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="SLB--PNG" source="SLB" target="PNG" weight="0.035082366">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Kon-Tiki"></attvalue>
+          <attvalue for="edgebetweenness" value="0.0350823672971324"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CRI--NIC" source="CRI" target="NIC" weight="0.074842386">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.07484238356721579"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="NIC--HND" source="NIC" target="HND" weight="0.056335162">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.056335163717714055"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="HND--GTM" source="HND" target="GTM" weight="0.054301403">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.05430140329469189"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GTM--BLZ" source="GTM" target="BLZ" weight="0.0636567">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06365670124059386"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BLZ--CUW" source="BLZ" target="CUW" weight="0.080231845">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.08023184868822453"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CUW--PRI" source="CUW" target="PRI" weight="0.11297539">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.11297539149888143"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="PRI--VIR" source="PRI" target="VIR" weight="0.8119789">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.8119788488916005"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="PRI--VEN" source="PRI" target="VEN" weight="0.37827945">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.37827943868212327"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="PRI--GUF" source="PRI" target="GUF" weight="0.37827945">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.37827943868212327"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="VIR--VGB" source="VIR" target="VGB" weight="0.09365467">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.09365466748017083"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="VIR--PAN" source="VIR" target="PAN" weight="0.8224527">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.8224527150701647"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="VIR--ESP" source="VIR" target="ESP">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Columbia"></attvalue>
+          <attvalue for="edgebetweenness" value="1.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="VEN--ABW" source="VEN" target="ABW" weight="0.3480781">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.34807809640024406"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="VGB--DOM" source="VGB" target="DOM" weight="0.06019931">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06019930852145617"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="DOM--TCA" source="DOM" target="TCA" weight="0.049522065">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.04952206630058979"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="TCA--BHS" source="TCA" target="BHS" weight="0.042810656">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.042810656904616634"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BHS--BMU" source="BHS" target="BMU" weight="0.04677649">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.04677648972950987"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ABW--COL" source="ABW" target="COL" weight="0.31787676">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.31787675411836486"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="COL--CYM" source="COL" target="CYM" weight="0.2876754">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.28767541183648565"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CYM--JAM" source="CYM" target="JAM" weight="0.25747406">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.25747406955460644"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="JAM--CUB" source="JAM" target="CUB" weight="0.22727273">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.22727272727272727"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CUB--HTI" source="CUB" target="HTI" weight="0.19707139">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.1970713849908481"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="HTI--MAF" source="HTI" target="MAF" weight="0.16687004">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.16687004270896888"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MAF--BLM" source="MAF" target="BLM" weight="0.1366687">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.1366687004270897"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BLM--AIA" source="BLM" target="AIA" weight="0.10646736">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.1064673581452105"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="AIA--KNA" source="AIA" target="KNA" weight="0.07626601">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.0762660158633313"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="KNA--MSR" source="KNA" target="MSR" weight="0.046064675">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.0460646735814521"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MSR--ATG" source="MSR" target="ATG" weight="0.015863331">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.01586333129957291"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ATG--GLP" source="ATG" target="GLP" weight="0.046064675">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.0460646735814521"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GLP--DMA" source="GLP" target="DMA" weight="0.07626601">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.0762660158633313"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="DMA--MTQ" source="DMA" target="MTQ" weight="0.10646736">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.1064673581452105"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MTQ--LCA" source="MTQ" target="LCA" weight="0.1366687">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.1366687004270897"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="LCA--BRB" source="LCA" target="BRB" weight="0.16687004">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.16687004270896888"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BRB--VCT" source="BRB" target="VCT" weight="0.19707139">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.1970713849908481"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="VCT--GRD" source="VCT" target="GRD" weight="0.22727273">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.22727272727272727"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GRD--TTO" source="GRD" target="TTO" weight="0.25747406">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.25747406955460644"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="TTO--GUY" source="TTO" target="GUY" weight="0.2876754">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.28767541183648565"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GUY--SUR" source="GUY" target="SUR" weight="0.31787676">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.31787675411836486"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="SUR--GUF" source="SUR" target="GUF" weight="0.3480781">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Andes and Islands"></attvalue>
+          <attvalue for="edgebetweenness" value="0.34807809640024406"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="PAN--ECU" source="PAN" target="ECU" weight="0.09233272">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.09233272320520643"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="PAN--BRA" source="PAN" target="BRA" weight="0.7589994">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.7589993898718731"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ECU--PER" source="ECU" target="PER" weight="0.05847061">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.05847061216188733"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="PER--CHL" source="PER" target="CHL" weight="0.0246085">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.024608501118568233"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CHL--ARG" source="CHL" target="ARG" weight="0.011999186">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.011999186495830792"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ARG--URY" source="ARG" target="URY" weight="0.045861296">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.04586129753914989"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="URY--BRA" source="URY" target="BRA" weight="0.07972341">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.07972340858246899"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BRA--SEN" source="BRA" target="SEN" weight="0.18232661">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.18232662192393737"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BRA--NGA" source="BRA" target="NGA" weight="0.27028677">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.27028676021964615"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BRA--SHN" source="BRA" target="SHN" weight="0.13717714">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.13717714053284524"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BRA--ZAF" source="BRA" target="ZAF" weight="0.46369737">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.4636973764490543"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="SEN--CPV" source="SEN" target="CPV" weight="0.117958106">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.11795810453528574"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="NGA--BEN" source="NGA" target="BEN" weight="0.13219443">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.13219442749644092"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="SHN--AGO" source="SHN" target="AGO" weight="0.104433596">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Capes"></attvalue>
+          <attvalue for="edgebetweenness" value="0.10443359772218833"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="AGO--COD" source="AGO" target="COD" weight="0.101993084">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.10199308521456173"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ZAF--NAM" source="ZAF" target="NAM" weight="0.064368516">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06436851738865161"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ESP--FRA" source="ESP" target="FRA" weight="0.86394143">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.863941427699817"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="IDN--SGP" source="IDN" target="SGP" weight="0.13595688">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.13595688427903194"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="SGP--MYS" source="SGP" target="MYS" weight="0.21039252">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.21039251576164328"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="SGP--THA" source="SGP" target="THA" weight="0.07880822">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.07880821639210901"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MYS--MMR" source="MYS" target="MMR" weight="0.21781574">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.2178157413056742"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MMR--BGD" source="MMR" target="BGD" weight="0.2282896">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.22828960748423835"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BGD--LKA" source="BGD" target="LKA" weight="0.24100061">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.2410006101281269"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="LKA--IND" source="LKA" target="IND" weight="0.2632703">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.26327028676021963"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="THA--KHM" source="THA" target="KHM" weight="0.078909904">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.07890990441326012"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="KHM--VNM" source="KHM" target="VNM" weight="0.08480781">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.0848078096400244"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="VNM--MAC" source="VNM" target="MAC" weight="0.100264385">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.10026438885499288"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MAC--HKG" source="MAC" target="HKG" weight="0.11826317">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.11826316859873907"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="HKG--CHN" source="HKG" target="CHN" weight="0.13809234">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.1380923327232052"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CHN--TWN" source="CHN" target="TWN" weight="0.29103112">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.2910311165344722"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CHN--MHL" source="CHN" target="MHL" weight="0.13910921">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.1391092129347163"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="TWN--KOR" source="TWN" target="KOR" weight="0.312589">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.31258897701850724"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="KOR--JPN" source="KOR" target="JPN" weight="0.33638397">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.33638397396786657"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MHL--FSM" source="MHL" target="FSM" weight="0.11775473">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.11775472849298353"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="FSM--MNP" source="FSM" target="MNP" weight="0.098942444">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.09894244458002847"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MNP--GUM" source="MNP" target="GUM" weight="0.081960544">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.08196054504779338"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GUM--PHL" source="GUM" target="PHL" weight="0.06823266">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06823266219239374"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="PHL--BRN" source="PHL" target="BRN" weight="0.066097215">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06609721374822046"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BRN--SGP" source="BRN" target="SGP" weight="0.07352044">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Zheng He"></attvalue>
+          <attvalue for="edgebetweenness" value="0.07352043929225137"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="IND--MDV" source="IND" target="MDV" weight="0.292048">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.2920479967459833"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="IND--PAK" source="IND" target="PAK" weight="0.14632906">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.14632906243644497"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MDV--MUS" source="MDV" target="MUS" weight="0.30089486">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.30089485458612975"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MUS--REU" source="MUS" target="REU" weight="0.31177548">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.31177547284929835"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="REU--MDG" source="REU" target="MDG" weight="0.32468987">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.3246898515354891"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MDG--COM" source="MDG" target="COM" weight="0.14144804">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.14144803742119177"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MDG--MOZ" source="MDG" target="MOZ" weight="0.4440716">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.44407158836689037"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="COM--TZA" source="COM" target="TZA" weight="0.11022981">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.11022981492780151"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="TZA--MYT" source="TZA" target="MYT" weight="0.087655075">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.08765507423225544"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MYT--SYC" source="MYT" target="SYC" weight="0.07596095">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.07596095179987797"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="SYC--KEN" source="SYC" target="KEN" weight="0.06630059">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06630058979052268"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="KEN--SOM" source="KEN" target="SOM" weight="0.062131383">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.062131380923327234"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="SOM--DJI" source="SOM" target="DJI" weight="0.07474069">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.07474069554606468"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="DJI--IND" source="DJI" target="IND" weight="0.18293674">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.182936750050844"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MOZ--ZAF" source="MOZ" target="ZAF" weight="0.45952818">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.4595281675818589"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="NAM--AGO" source="NAM" target="AGO" weight="0.03182835">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.03182835062029693"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="COD--COG" source="COD" target="COG" weight="0.068741105">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06874110229814928"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="COG--STP" source="COG" target="STP" weight="0.035895873">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.03589587146634127"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="STP--GAB" source="STP" target="GAB" weight="0.016880212">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.016880211511083994"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GAB--GNQ" source="GAB" target="GNQ" weight="0.049623754">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.0496237543217409"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GNQ--CMR" source="GNQ" target="CMR" weight="0.08277405">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.08277404921700224"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CMR--NGA" source="CMR" target="NGA" weight="0.11592434">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.11592434411226357"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BEN--TGO" source="BEN" target="TGO" weight="0.09914582">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.09914582062233068"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="TGO--GHA" source="TGO" target="GHA" weight="0.066097215">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06609721374822046"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GHA--CIV" source="GHA" target="CIV" weight="0.033048607">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.03304860687411023"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CIV--LBR" source="CIV" target="LBR" weight="0.008135042">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.008135041692088672"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="LBR--SLE" source="LBR" target="SLE" weight="0.039454952">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.03945495220663006"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="SLE--GIN" source="SLE" target="GIN" weight="0.07250356">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.07250355908074028"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GIN--GMB" source="GIN" target="GMB" weight="0.10555217">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.10555216595485052"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GMB--SEN" source="GMB" target="SEN" weight="0.13860077">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.13860077282896074"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CPV--MRT" source="CPV" target="MRT" weight="0.121618874">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.12161887329672565"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MRT--PRT" source="MRT" target="PRT" weight="0.13727883">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Good Hope"></attvalue>
+          <attvalue for="edgebetweenness" value="0.13727882855399634"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="PRT--ESP" source="PRT" target="ESP" weight="0.32407972">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.3240797234085825"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="PRT--GIB" source="PRT" target="GIB" weight="0.035082366">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.0350823672971324"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="PAK--IRN" source="PAK" target="IRN" weight="0.11429734">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.11429733577384583"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="IRN--IRQ" source="IRN" target="IRQ" weight="0.08226561">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.0822656091112467"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="IRQ--KWT" source="IRQ" target="KWT" weight="0.06508034">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06508033353670938"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="KWT--OMN" source="KWT" target="OMN" weight="0.056335162">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.056335163717714055"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="OMN--QAT" source="OMN" target="QAT" weight="0.062131383">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.062131380923327234"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="QAT--BHR" source="QAT" target="BHR" weight="0.07280862">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.07280862314419362"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BHR--ARE" source="BHR" target="ARE" weight="0.092434414">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.09243441122635754"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ARE--SAU" source="ARE" target="SAU" weight="0.1247712">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.12477120195241001"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="SAU--EGY" source="SAU" target="EGY" weight="0.157108">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.15710799267846248"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="EGY--JOR" source="EGY" target="JOR" weight="0.19381736">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.1938173683140126"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="EGY--CYP" source="EGY" target="CYP" weight="0.3320114">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.3320113890583689"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="JOR--SDN" source="JOR" target="SDN" weight="0.17876755">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.17876754118364857"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="SDN--YEM" source="SDN" target="YEM" weight="0.17012405">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.17012405938580435"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="YEM--DJI" source="YEM" target="DJI" weight="0.16829367">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.1682936750050844"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CYP--LBY" source="CYP" target="LBY" weight="0.21659549">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.21659548505186088"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CYP--ISR" source="CYP" target="ISR" weight="0.10433191">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.10433190970103721"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="CYP--TUR" source="CYP" target="TUR" weight="0.19920683">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.19920683343502135"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="LBY--TUN" source="LBY" target="TUN" weight="0.22229001">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.22229001423632297"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="TUN--DZA" source="TUN" target="DZA" weight="0.2385601">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.23856009762050032"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="DZA--MAR" source="DZA" target="MAR" weight="0.2572707">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.25727069351230425"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MAR--PRT" source="MAR" target="PRT" weight="0.2783201">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Ibn Battuta"></attvalue>
+          <attvalue for="edgebetweenness" value="0.2783201138905837"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MCO--ITA" source="MCO" target="ITA" weight="0.06182632">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06182631685987391"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ITA--HRV" source="ITA" target="HRV" weight="0.1146024">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.11460239983729917"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GGY--GBR" source="GGY" target="GBR" weight="0.08104535">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.08104535285743339"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="IRL--FRO" source="IRL" target="FRO" weight="0.035184056">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.03518405531828351"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="FRO--ISL" source="FRO" target="ISL" weight="0.005287777">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.0052877770998576365"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="POL--DNK" source="POL" target="DNK" weight="0.028167581">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.028167581858857028"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="DNK--DEU" source="DNK" target="DEU" weight="0.029082773">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.029082774049217"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="DEU--NLD" source="DEU" target="NLD" weight="0.059690867">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.05969086841570063"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="NLD--BEL" source="NLD" target="BEL" weight="0.09202766">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.09202765914175311"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BEL--GBR" source="BEL" target="GBR" weight="0.12517795">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.12517795403701443"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="NOR--SWE" source="NOR" target="SWE" weight="0.043522473">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.04352247305267439"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="SWE--FIN" source="SWE" target="FIN" weight="0.07443563">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.07443563148261134"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="FIN--RUS" source="FIN" target="RUS" weight="0.19890177">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.19890176937156803"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="FIN--EST" source="FIN" target="EST" weight="0.103111655">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.10311165344722392"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="EST--LVA" source="EST" target="LVA" weight="0.069147855">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06914785438275371"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="LVA--LTU" source="LVA" target="LTU" weight="0.034777302">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Europa"></attvalue>
+          <attvalue for="edgebetweenness" value="0.03477730323367907"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="HRV--MNE" source="HRV" target="MNE" weight="0.093959734">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.09395973154362416"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MNE--ALB" source="MNE" target="ALB" weight="0.075655885">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.07565588773642465"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ALB--GRC" source="ALB" target="GRC" weight="0.059792556">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.05979255643685174"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GRC--CYP" source="GRC" target="CYP" weight="0.057758797">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.05775879601382957"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ISR--LBN" source="ISR" target="LBN" weight="0.06996136">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.06996135855196257"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="LBN--SYR" source="LBN" target="SYR" weight="0.035184056">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.03518405531828351"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="TUR--BGR" source="TUR" target="BGR" weight="0.18700427">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.18700427089688834"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="BGR--ROU" source="BGR" target="ROU" weight="0.19920683">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.19920683343502135"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="ROU--UKR" source="ROU" target="UKR" weight="0.2173073">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.21730730119991865"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="UKR--GEO" source="UKR" target="GEO" weight="0.23703478">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.2370347773032337"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="GEO--RUS" source="GEO" target="RUS" weight="0.25838926">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Levant"></attvalue>
+          <attvalue for="edgebetweenness" value="0.25838926174496646"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MLT--ESP" source="MLT" target="ESP" weight="0.10067114">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Columbia"></attvalue>
+          <attvalue for="edgebetweenness" value="0.10067114093959731"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="MLT--ITA" source="MLT" target="ITA" weight="0.0755542">
+        <viz:color r="128" g="128" b="128"></viz:color>
+        <attvalues>
+          <attvalue for="cable" value="Columbia"></attvalue>
+          <attvalue for="edgebetweenness" value="0.07555419971527354"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

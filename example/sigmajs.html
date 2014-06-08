@@ -1,0 +1,66 @@
+ <html>
+ <head>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+ 
+ <script src="../gephi.stream.graph.websocket.js"></script>
+ <script src="./sigma.min.js"></script>
+ <script src="plugins/sigma.parsers.gexf.min.js"></script>
+ <script>
+
+ </script>
+ </head>
+ <body>
+ <h1>Yolo</h1>
+ <div  background="#AAAAAA" id="sigma-container" style="width:100%;height:100%"></div>
+ <input type="button" onclick="javascript:yolo();" />
+ </body>
+ <script>
+$(document).ready(function() {
+  
+    var stream1 = new GephiStream("ws://127.0.0.1:8080/workspace0")
+    var s = new sigma('sigma-container');
+    
+    stream1.node.onadd = function(data) {
+        Object.keys(data).forEach(function(element) {   
+            //console.log(data[element])
+            var node = data[element]
+            try {
+                
+                s.graph.addNode({
+                      id: element,
+                      label: node['Label'],
+                      // Display attributes:
+                      x: node['x'],
+                      y: node['y'],
+                      size: node['size'],
+                      color: gephiColorToStd(node['r'],node['g'],node['b'])
+                    })
+            } catch(e) {
+                s.graph.nodes(element)['x'] = node['x']
+                s.graph.nodes(element)['y'] = node['y']
+            }
+        })
+        s.refresh()
+    }
+    
+    stream1.edge.onadd = function(data) {
+        Object.keys(data).forEach(function(element) {   
+            //console.log(data[element])
+            var edge = data[element]
+            try {
+            s.graph.addEdge({
+                  id: element,
+                  source: edge['source'],
+                  target : edge['target']
+                })
+            } catch(e) {}
+        })
+        s.refresh()
+    }
+    
+    stream1.connect()
+    //setInterval(function () {stream1.reset()}, 100);
+  });
+</script>
+ </html>
+ 
