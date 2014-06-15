@@ -76,7 +76,7 @@ GephiStream.prototype.connect = function() {
                         self.edge.onchange(data['ce'])
                     }
                     if(data['de']) {
-                        this.edge.ondelete(data['de'])
+                        self.edge.ondelete(data['de'])
                     }
                 }
 }
