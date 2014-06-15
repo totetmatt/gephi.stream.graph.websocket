@@ -10,7 +10,7 @@ How to use it
 =========
 1 - Run Gephi
 --
-Open gephi and start a new project and put some node & edges, or open one (a dummy example can be found on the *example* directory)
+Open gephi and start a new project and put some nodes & edges, or open one (a dummy example can be found on the *example* directory)
 
 Go to the Streaming module (if you don't have download it with the plug in manager of Gephi) and activate the master by right clicking on it.
 
